@@ -13,7 +13,7 @@ public class QuizRunner {
                 " \nA: Get dress \nB: Go to bed \nC: Have a breakfast", "A" + "C");
         funQuiz.addQuestion(checkbox);
 
-        TrueOrFalse trueOrFalse = new TrueOrFalse("Got to have a coffee? \nTrue or False?", "True");
+        TrueOrFalse trueOrFalse = new TrueOrFalse("Did you brush your teeth? \nTrue or False?", "True");
         funQuiz.addQuestion(trueOrFalse);
 
         funQuiz.runQuiz();
